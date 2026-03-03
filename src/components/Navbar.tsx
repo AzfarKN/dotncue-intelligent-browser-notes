@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import icon from "@/assets/dotncue-icon.jpeg";
-import wordmark from "@/assets/dotncue-wordmark.jpeg";
+import logo from "@/assets/dotncue-logo.png";
 
 const navLinks = ["Features", "How It Works", "AI", "Privacy"];
 
@@ -12,8 +11,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-2">
-          <img src={icon} alt="DOTNCUE icon" className="h-10 rounded" />
-          <img src={wordmark} alt="DOTNCUE" className="h-6" />
+          <img src={logo} alt="DOTNCUE" className="h-10" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
